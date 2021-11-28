@@ -1,0 +1,14 @@
+﻿  aiger.c
+d:\code\c++\car\car\car\aiger.c(111): warning C4005: “DELETE”: 宏重定义
+  d:\windows kits\10\include\10.0.17763.0\um\winnt.h(8894): note: 参见“DELETE”的前一个定义
+d:\code\c++\car\car\car\aiger.c(1842): warning C4267: “=”: 从“size_t”转换到“char”，可能丢失数据
+d:\code\c++\car\car\car\aiger.c(1845): warning C4013: “popen”未定义；假设外部返回 int
+d:\code\c++\car\car\car\aiger.c(1845): warning C4047: “=”:“FILE *”与“int”的间接级别不同
+d:\code\c++\car\car\car\aiger.c(1867): warning C4013: “pclose”未定义；假设外部返回 int
+d:\code\c++\car\car\car\aiger.c(2591): warning C4267: “=”: 从“size_t”转换到“char”，可能丢失数据
+d:\code\c++\car\car\car\aiger.c(2594): warning C4047: “=”:“FILE *”与“int”的间接级别不同
+  main.cpp
+d:\code\c++\car\car\car\main.cpp(9): warning C4101: “aig”: 未引用的局部变量
+aiger.obj : error LNK2001: 无法解析的外部符号 _popen
+aiger.obj : error LNK2001: 无法解析的外部符号 _pclose
+D:\Code\C++\CAR\CAR\Release\CAR.exe : fatal error LNK1120: 2 个无法解析的外部命令
